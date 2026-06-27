@@ -184,29 +184,39 @@
 
         <!-- 4. DOMAIN ACQUISITION SECTION -->
         <section id="acquisition" class="py-24 border-t border-white/10 bg-[#020617]" x-data="{ shown: false }" x-intersect.margin.-100px="shown = true">
-            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-                <div class="glass rounded-3xl p-10 md:p-16 border border-white/10 relative overflow-hidden" :class="shown ? 'reveal-visible' : 'reveal-hidden'">
-                    <!-- Subtle glow -->
-                    <div class="absolute inset-0 bg-gradient-to-br from-yellow-500/5 to-emerald-500/5 z-0"></div>
-                    
-                    <div class="relative z-10">
-                        <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-white/5 border border-white/10 mb-8">
-                            <svg class="w-8 h-8 text-yellow-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" /></svg>
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="lg:grid lg:grid-cols-2 lg:gap-16 items-center">
+                    <!-- Image on Left -->
+                    <div class="mb-16 lg:mb-0 relative" :class="shown ? 'reveal-visible' : 'reveal-hidden'">
+                        <div class="absolute inset-0 bg-gradient-to-r from-emerald-500/20 to-yellow-500/20 rounded-3xl blur-3xl opacity-50"></div>
+                        <div class="relative glass p-4 rounded-3xl border border-white/10 shadow-2xl overflow-hidden">
+                            <img src="/residential_decor.png" alt="Residential Decorating" class="rounded-2xl w-full h-auto" onerror="this.src='https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&q=80'">
                         </div>
+                    </div>
+
+                    <!-- Content on Right -->
+                    <div class="glass rounded-3xl p-10 md:p-12 border border-white/10 relative overflow-hidden" :class="shown ? 'reveal-visible' : 'reveal-hidden'" style="transition-delay: 200ms;">
+                        <div class="absolute inset-0 bg-gradient-to-br from-yellow-500/5 to-emerald-500/5 z-0"></div>
                         
-                        <h2 class="text-3xl md:text-4xl font-display font-bold text-white mb-4">
-                            Strategic Brand Opportunity
-                        </h2>
-                        
-                        <p class="text-lg text-slate-300 mb-10 max-w-2xl mx-auto leading-relaxed">
-                            <span class="text-white font-medium">ChristmasDecoratingService.com</span> and its associated digital brand assets may be available for acquisition by qualified organizations seeking category-defining branding before the holiday season.
-                        </p>
-                        
-                        <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-                            <a href="{{ route('acquisition.show') }}" class="inline-flex items-center justify-center px-8 py-4 text-sm font-semibold text-white bg-white/10 border border-white/20 rounded-full hover:bg-white/20 hover:border-white/30 transition-all duration-300 backdrop-blur-md">
-                                Acquisition Inquiry
-                                <svg class="ml-2 w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
-                            </a>
+                        <div class="relative z-10">
+                            <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-white/5 border border-white/10 mb-8">
+                                <svg class="w-8 h-8 text-yellow-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" /></svg>
+                            </div>
+                            
+                            <h2 class="text-3xl md:text-4xl font-display font-bold text-white mb-4">
+                                Strategic Brand Opportunity
+                            </h2>
+                            
+                            <p class="text-lg text-slate-300 mb-10 leading-relaxed">
+                                <span class="text-white font-medium">ChristmasDecoratingService.com</span> and its associated digital brand assets may be available for acquisition by qualified organizations seeking category-defining branding before the holiday season.
+                            </p>
+                            
+                            <div class="flex flex-col sm:flex-row items-center gap-4">
+                                <a href="{{ route('acquisition.show') }}" class="inline-flex items-center justify-center px-8 py-4 text-sm font-semibold text-white bg-white/10 border border-white/20 rounded-full hover:bg-white/20 hover:border-white/30 transition-all duration-300 backdrop-blur-md">
+                                    Acquisition Inquiry
+                                    <svg class="ml-2 w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
