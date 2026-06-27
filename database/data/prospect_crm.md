@@ -114,3 +114,4 @@ This document tracks the absolute highest-quality, most strategic acquisition ta
 | **Mobile Christmas Decorators** | Bryan Cruz | Founder & CEO | bryan@mobilechristmasdecorators.com | Regional Lighting Leader | Not Contacted |
 | **Birmingham Holiday Lighting** | Willie Hernandez | Founder & CEO | willie@birminghamholidaylighting.com | Regional Lighting Leader | Not Contacted |
 | **Huntsville Christmas Decorators** | Nathan Harris | Founder & CEO | nathan@huntsvillechristmasdecorators.com | Regional Lighting Leader | Not Contacted |
+| **Maxwell Decorators** | Maxwell | CEO | maxwelljohnpaul29@gmail.com | Testing | Not Contacted |
