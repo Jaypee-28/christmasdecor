@@ -141,7 +141,7 @@
         <!-- 3. SHOWCASE SECTION -->
         <section id="showcase" class="py-24 border-y border-white/5 bg-gradient-to-b from-transparent to-emerald-900/20" x-data="{ shown: false }" x-intersect.margin.-100px="shown = true">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="lg:grid lg:grid-cols-2 lg:gap-16 items-center">
+                <div class="flex flex-col-reverse gap-16 lg:gap-0 lg:grid lg:grid-cols-2 lg:gap-16 items-center">
                     <div :class="shown ? 'reveal-visible' : 'reveal-hidden'">
                         <h2 class="text-3xl md:text-5xl font-bold font-display tracking-tight text-white mb-6">
                             Unmatched <br/><span class="text-gradient">Elegance & Scale</span>
@@ -172,7 +172,7 @@
                         </div>
                     </div>
                     
-                    <div class="mt-16 lg:mt-0 relative" :class="shown ? 'reveal-visible' : 'reveal-hidden'" style="transition-delay: 300ms;">
+                    <div class="relative" :class="shown ? 'reveal-visible' : 'reveal-hidden'" style="transition-delay: 300ms;">
                         <div class="absolute inset-0 bg-gradient-to-r from-yellow-500/20 to-emerald-500/20 rounded-3xl blur-3xl opacity-50"></div>
                         <div class="relative glass p-4 rounded-3xl border border-white/10 shadow-2xl overflow-hidden">
                             <img src="/commercial_christmas_decor_1782571623504.png" alt="Commercial Decorating" class="rounded-2xl w-full h-auto" onerror="this.src='https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&q=80'">
