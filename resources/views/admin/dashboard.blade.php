@@ -7,6 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <link rel="icon" type="image/png" href="/favicon.png">
 </head>
 <body class="bg-gray-950 text-gray-200 antialiased font-sans min-h-screen" x-data="crmData()">
 
@@ -276,6 +277,12 @@
                     else if (tab === 'FollowUp2') {
                         body = this.templates['FollowUp2'];
                         subject = 'Re: ChristmasDecoratingService.com + ' + this.activeProspect.company;
+                    }
+
+                    if (tab === 'Initial') {
+                        body = body + "\n\nBest regards,\nMaxwell\nChristmasDecoratingService.com";
+                    } else {
+                        body = body + "\n\nBest,\nMaxwell";
                     }
 
                     this.generatedEmail = body;
