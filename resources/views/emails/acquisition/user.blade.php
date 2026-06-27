@@ -7,14 +7,14 @@
         .header { background-color: #020617; padding: 30px 20px; text-align: center; color: white; border-radius: 8px 8px 0 0; }
         .content { background-color: #ffffff; padding: 40px 30px; border: 1px solid #e2e8f0; border-radius: 0 0 8px 8px; }
         h1 { margin: 0; font-size: 24px; font-weight: 700; letter-spacing: -0.5px; }
-        .accent { color: #06b6d4; }
+        .accent { color: #fbbf24; }
         .footer { text-align: center; margin-top: 30px; font-size: 13px; color: #64748b; }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <h1>SmartHome<span class="accent">Strategy</span></h1>
+            <h1>ChristmasDecorating<span class="accent">Service</span></h1>
         </div>
         <div class="content">
             <p style="font-size: 16px; margin-top: 0;">Thank you for your inquiry regarding ChristmasDecoratingService.com.</p>
