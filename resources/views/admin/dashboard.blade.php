@@ -259,9 +259,9 @@
 
                     if(tab === 'Initial') {
                         templateKey = this.activeProspect.template_id;
-                        body = this.templates[templateKey] || "No template assigned.";
+                        body = this.templates[templateKey] || "";
                         if(this.activeProspect.hook) {
-                            body = this.activeProspect.hook + "\n\n" + body;
+                            body = body ? this.activeProspect.hook + "\n\n" + body : this.activeProspect.hook;
                         }
 
                         if(templateKey === 'A') subject = 'ChristmasDecoratingService.com + ' + this.activeProspect.company;
