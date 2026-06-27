@@ -25,12 +25,21 @@ class ProspectSeeder extends Seeder
             $matchedPitch = null;
             $companyName = trim(str_replace('**', '', $p['Company']));
             
+            $fallbackPitch = null;
             foreach ($pitchData as $pitch) {
                 $pitchCompany = trim(str_replace('**', '', $pitch['Company']));
+                if (str_contains(strtolower($pitchCompany), 'all other prospects')) {
+                    $fallbackPitch = $pitch;
+                }
                 if (stripos($companyName, $pitchCompany) !== false || stripos($pitchCompany, $companyName) !== false) {
                     $matchedPitch = $pitch;
                     break;
                 }
+            }
+
+            if (!$matchedPitch && $fallbackPitch) {
+                $fallbackPitch['The Personalized Hook'] = str_replace('[Name]', trim(explode(' ', $p['Contact Name'])[0]), $fallbackPitch['The Personalized Hook']);
+                $matchedPitch = $fallbackPitch;
             }
 
             $emailKey = isset($p['Email (Estimated)']) ? 'Email (Estimated)' : 'Email';
