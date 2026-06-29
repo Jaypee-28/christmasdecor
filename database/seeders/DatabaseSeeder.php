@@ -17,11 +17,13 @@ class DatabaseSeeder extends Seeder
     {
         // User::factory(10)->create();
 
-        User::create([
-            'name' => 'Maxwell',
-            'email' => 'maxwell@christmasdecoratingservice.com',
-            'password' => bcrypt('Max!2680'),
-        ]);
+        User::updateOrCreate(
+            ['email' => 'maxwell@christmasdecoratingservice.com'],
+            [
+                'name' => 'Maxwell',
+                'password' => bcrypt('Max!2680'),
+            ]
+        );
 
         $this->call([
             TemplateSeeder::class,
