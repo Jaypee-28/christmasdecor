@@ -13,8 +13,9 @@
 
     <!-- Top Nav -->
     <header class="sticky top-0 z-50 bg-gray-900 border-b border-gray-800 flex justify-between items-center px-6 py-4">
-        <div>
+        <div class="flex items-center space-x-4">
             <h1 class="text-xl font-bold text-white tracking-tight">ChristmasDecoratingService <span class="text-blue-500 font-medium">Outbound CRM</span></h1>
+            <a href="{{ route('admin.templates.edit') }}" class="text-sm font-medium text-gray-300 hover:text-white transition-colors bg-gray-800 px-3 py-1.5 rounded-md border border-gray-700 hover:border-gray-600">Manage Templates</a>
         </div>
         
         <!-- Modern Profile Dropdown -->
@@ -259,9 +260,12 @@
 
                     if(tab === 'Initial') {
                         templateKey = this.activeProspect.template_id;
-                        body = this.templates[templateKey] || "";
+                        let templateBody = this.templates[templateKey] || "";
+                        
                         if(this.activeProspect.hook) {
-                            body = body ? this.activeProspect.hook + "\n\n" + body : this.activeProspect.hook;
+                            body = templateBody ? this.activeProspect.hook + "\n\n" + templateBody : this.activeProspect.hook;
+                        } else {
+                            body = templateBody;
                         }
 
                         if(templateKey === 'A') subject = 'ChristmasDecoratingService.com + ' + this.activeProspect.company;
@@ -269,20 +273,26 @@
                         else if(templateKey === 'C') subject = 'ChristmasDecoratingService.com';
                         else if(templateKey === 'D') subject = 'digital asset: ChristmasDecoratingService.com';
                         else subject = 'ChristmasDecoratingService.com';
-                    } 
+                    }  
                     else if (tab === 'FollowUp1') {
-                        body = this.templates['FollowUp1'];
+                        body = this.templates['FollowUp1'] || "";
                         subject = 'Re: ChristmasDecoratingService.com + ' + this.activeProspect.company; // Simulating a reply
                     }
                     else if (tab === 'FollowUp2') {
-                        body = this.templates['FollowUp2'];
+                        body = this.templates['FollowUp2'] || "";
                         subject = 'Re: ChristmasDecoratingService.com + ' + this.activeProspect.company;
                     }
 
-                    if (tab === 'Initial') {
-                        body = body + "\n\nBest regards,\nMaxwell\nChristmasDecoratingService.com";
-                    } else {
-                        body = body + "\n\nBest,\nMaxwell";
+                    // Wrap everything in the opening and closure
+                    let opening = "Hello {firstname}\n\n";
+                    let closure = "\n\nBest regards\nmaxwell Johnpaul\nChristmasdecoratingservice.com.";
+                    
+                    body = opening + body + closure;
+
+                    // Replace {firstname} with actual first name
+                    if (this.activeProspect.contact_name) {
+                        let firstName = this.activeProspect.contact_name.split(' ')[0];
+                        body = body.replace(/{firstname}/g, firstName);
                     }
 
                     this.generatedEmail = body;

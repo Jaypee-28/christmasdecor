@@ -26,5 +26,7 @@ Route::middleware('auth')->group(function () {
     Route::post('/admin/prospects/{prospect}/status', [CrmController::class, 'updateStatus'])->name('admin.prospect.status');
     Route::post('/admin/prospects/{prospect}/follow-up', [CrmController::class, 'logFollowUp'])->name('admin.prospect.followup');
     Route::post('/admin/prospects/{prospect}/send', [CrmController::class, 'sendEmail'])->name('admin.prospect.send');
+    Route::get('/admin/templates', [CrmController::class, 'editTemplates'])->name('admin.templates.edit');
+    Route::post('/admin/templates', [CrmController::class, 'saveTemplates'])->name('admin.templates.save');
 });
 Route::get('/acquisition/success', [AcquisitionController::class, 'success'])->name('acquisition.success');

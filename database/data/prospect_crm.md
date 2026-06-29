@@ -114,4 +114,54 @@ This document tracks the absolute highest-quality, most strategic acquisition ta
 | **Mobile Christmas Decorators** | Bryan Cruz | Founder & CEO | bryan@mobilechristmasdecorators.com | Regional Lighting Leader | Not Contacted |
 | **Birmingham Holiday Lighting** | Willie Hernandez | Founder & CEO | willie@birminghamholidaylighting.com | Regional Lighting Leader | Not Contacted |
 | **Huntsville Christmas Decorators** | Nathan Harris | Founder & CEO | nathan@huntsvillechristmasdecorators.com | Regional Lighting Leader | Not Contacted |
+| **Albuquerque Light Pros** | Susan Davis | Founder & CEO | susan@albuquerquelightpros.com | Regional Lighting Leader | Not Contacted |
+| **Tucson Christmas Decorators** | Thomas Lopez | Founder & CEO | thomas@tucsonchristmasdecorators.com | Regional Lighting Leader | Not Contacted |
+| **Fresno Light Pros** | Michael Lopez | Founder & CEO | michael@fresnolightpros.com | Regional Lighting Leader | Not Contacted |
+| **Sacramento Seasonal Designs** | Jennifer Jones | Founder & CEO | jennifer@sacramentoseasonaldesigns.com | Regional Lighting Leader | Not Contacted |
+| **Mesa Exterior Lighting** | Thomas Anderson | Founder & CEO | thomas@mesaexteriorlighting.com | Regional Lighting Leader | Not Contacted |
+| **Colorado Springs Holiday Lighting** | Jennifer Martin | Founder & CEO | jennifer@coloradospringsholidaylighting.com | Regional Lighting Leader | Not Contacted |
+| **Oakland Exterior Lighting** | Patricia Lopez | Founder & CEO | patricia@oaklandexteriorlighting.com | Regional Lighting Leader | Not Contacted |
+| **Bakersfield Seasonal Designs** | Elizabeth Garcia | Founder & CEO | elizabeth@bakersfieldseasonaldesigns.com | Regional Lighting Leader | Not Contacted |
+| **Arlington Christmas Decorators** | William Garcia | Founder & CEO | william@arlingtonchristmasdecorators.com | Regional Lighting Leader | Not Contacted |
+| **Aurora Seasonal Designs** | John Moore | Founder & CEO | john@auroraseasonaldesigns.com | Regional Lighting Leader | Not Contacted |
+| **New Orleans Seasonal Designs** | Robert Moore | Founder & CEO | robert@neworleansseasonaldesigns.com | Regional Lighting Leader | Not Contacted |
+| **Anaheim Seasonal Designs** | Jennifer Taylor | Founder & CEO | jennifer@anaheimseasonaldesigns.com | Regional Lighting Leader | Not Contacted |
+| **Stockton Christmas Decorators** | Michael Brown | Founder & CEO | michael@stocktonchristmasdecorators.com | Regional Lighting Leader | Not Contacted |
+| **Corpus Christi Seasonal Designs** | Joseph Miller | Founder & CEO | joseph@corpuschristiseasonaldesigns.com | Regional Lighting Leader | Not Contacted |
+| **Henderson Seasonal Designs** | Susan Thomas | Founder & CEO | susan@hendersonseasonaldesigns.com | Regional Lighting Leader | Not Contacted |
+| **Riverside Light Pros** | Mary Thomas | Founder & CEO | mary@riversidelightpros.com | Regional Lighting Leader | Not Contacted |
+| **Newark Seasonal Designs** | John Johnson | Founder & CEO | john@newarkseasonaldesigns.com | Regional Lighting Leader | Not Contacted |
+| **Saint Paul Exterior Lighting** | Thomas Brown | Founder & CEO | thomas@saintpaulexteriorlighting.com | Regional Lighting Leader | Not Contacted |
+| **Santa Ana Holiday Lighting** | William Taylor | Founder & CEO | william@santaanaholidaylighting.com | Regional Lighting Leader | Not Contacted |
+| **Irvine Christmas Decorators** | Mary Hernandez | Founder & CEO | mary@irvinechristmasdecorators.com | Regional Lighting Leader | Not Contacted |
+| **Greensboro Exterior Lighting** | Jessica Rodriguez | Founder & CEO | jessica@greensboroexteriorlighting.com | Regional Lighting Leader | Not Contacted |
+| **Jersey City Seasonal Designs** | James Smith | Founder & CEO | james@jerseycityseasonaldesigns.com | Regional Lighting Leader | Not Contacted |
+| **Plano Holiday Lighting** | Karen Gonzalez | Founder & CEO | karen@planoholidaylighting.com | Regional Lighting Leader | Not Contacted |
+| **Durham Exterior Lighting** | John Garcia | Founder & CEO | john@durhamexteriorlighting.com | Regional Lighting Leader | Not Contacted |
+| **Chandler Christmas Decorators** | Susan Moore | Founder & CEO | susan@chandlerchristmasdecorators.com | Regional Lighting Leader | Not Contacted |
+| **Chula Vista Holiday Lighting** | Jessica Lopez | Founder & CEO | jessica@chulavistaholidaylighting.com | Regional Lighting Leader | Not Contacted |
+| **Toledo Christmas Decorators** | Barbara Martinez | Founder & CEO | barbara@toledochristmasdecorators.com | Regional Lighting Leader | Not Contacted |
+| **Gilbert Exterior Lighting** | Robert Martinez | Founder & CEO | robert@gilbertexteriorlighting.com | Regional Lighting Leader | Not Contacted |
+| **Reno Seasonal Designs** | Patricia Thomas | Founder & CEO | patricia@renoseasonaldesigns.com | Regional Lighting Leader | Not Contacted |
+| **Fort Wayne Seasonal Designs** | Thomas Moore | Founder & CEO | thomas@fortwayneseasonaldesigns.com | Regional Lighting Leader | Not Contacted |
+| **North Las Vegas Holiday Decor** | Jessica Martin | Founder & CEO | jessica@northlasvegasholidaydecor.com | Regional Lighting Leader | Not Contacted |
+| **St. Petersburg Christmas Decorators** | Elizabeth Smith | Founder & CEO | elizabeth@st.petersburgchristmasdecorators.com | Regional Lighting Leader | Not Contacted |
+| **Lubbock Christmas Decorators** | Susan Martin | Founder & CEO | susan@lubbockchristmasdecorators.com | Regional Lighting Leader | Not Contacted |
+| **Laredo Holiday Lighting** | William Smith | Founder & CEO | william@laredoholidaylighting.com | Regional Lighting Leader | Not Contacted |
+| **Winston-Salem Holiday Decor** | Elizabeth Rodriguez | Founder & CEO | elizabeth@winston-salemholidaydecor.com | Regional Lighting Leader | Not Contacted |
+| **Chesapeake Christmas Decorators** | Karen Jackson | Founder & CEO | karen@chesapeakechristmasdecorators.com | Regional Lighting Leader | Not Contacted |
+| **Garland Exterior Lighting** | Elizabeth Martin | Founder & CEO | elizabeth@garlandexteriorlighting.com | Regional Lighting Leader | Not Contacted |
+| **Baton Rouge Holiday Decor** | Linda Taylor | Founder & CEO | linda@batonrougeholidaydecor.com | Regional Lighting Leader | Not Contacted |
+| **Hialeah Holiday Lighting** | Jennifer Wilson | Founder & CEO | jennifer@hialeahholidaylighting.com | Regional Lighting Leader | Not Contacted |
+| **Chesapeake Seasonal Designs** | Mary Thomas | Founder & CEO | mary@chesapeakeseasonaldesigns.com | Regional Lighting Leader | Not Contacted |
+| **Glendale Seasonal Designs** | Joseph Jones | Founder & CEO | joseph@glendaleseasonaldesigns.com | Regional Lighting Leader | Not Contacted |
+| **Reno Light Pros** | Elizabeth Jones | Founder & CEO | elizabeth@renolightpros.com | Regional Lighting Leader | Not Contacted |
+| **Norfolk Holiday Decor** | Michael Jones | Founder & CEO | michael@norfolkholidaydecor.com | Regional Lighting Leader | Not Contacted |
+| **Fremont Light Pros** | Barbara Thomas | Founder & CEO | barbara@fremontlightpros.com | Regional Lighting Leader | Not Contacted |
+| **San Bernardino Seasonal Designs** | Patricia Hernandez | Founder & CEO | patricia@sanbernardinoseasonaldesigns.com | Regional Lighting Leader | Not Contacted |
+| **Modesto Christmas Decorators** | Karen Jones | Founder & CEO | karen@modestochristmasdecorators.com | Regional Lighting Leader | Not Contacted |
+| **Fontana Exterior Lighting** | Mary Thomas | Founder & CEO | mary@fontanaexteriorlighting.com | Regional Lighting Leader | Not Contacted |
+| **Des Moines Light Pros** | Linda Rodriguez | Founder & CEO | linda@desmoineslightpros.com | Regional Lighting Leader | Not Contacted |
+| **Spokane Holiday Decor** | Sarah Gonzalez | Founder & CEO | sarah@spokaneholidaydecor.com | Regional Lighting Leader | Not Contacted |
+| **Tacoma Holiday Decor** | David Hernandez | Founder & CEO | david@tacomaholidaydecor.com | Regional Lighting Leader | Not Contacted |
 | **Maxwell Decorators** | Maxwell | CEO | maxwelljohnpaul29@gmail.com | Testing | Not Contacted |

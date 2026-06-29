@@ -128,11 +128,10 @@
                             open: false,
                             selected: '{{ old('budget_range') }}',
                             options: [
-                                '$15,000 - $50,000',
-                                '$50,000 - $100,000',
-                                '$100,000 - $250,000',
-                                '$250,000 - $500,000',
-                                '$500,000+'
+                                '$1,500 - $3,000',
+                                '$3,000 - $5,000',
+                                '$5,000 - $10,000',
+                                '$10,000+'
                             ],
                             toggle() { this.open = !this.open; },
                             select(option) { this.selected = option; this.open = false; }
